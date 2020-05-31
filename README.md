@@ -8,16 +8,16 @@ If you didn't yet, we recommend to read our paper "LanguageLogger: A Mobile Keyb
 
 ### Prepare a Backend Instance
 
-TODO ref to backend repo
+You have to setup a backend instance to use LanguageLogger. Please follow the steps in the [Backend Repository](https://gitlab.lrz.de/languagelogger/languagelogger-backend)
 
 ### Create an Android App and Include the Desired LanguageLogger Modules
 
 1. Create an Android app via Android Studio and ensure that it is working
 
 2. Copy the module folders of the desired LanguageLogger module folders into your project. Place them at the same hierarchy level as the app module of your application:
-* researchime_base
-* researchime_contentextraction
-* researchime_contentabstraction
+* [researchime_base](https://gitlab.lrz.de/languagelogger/languagelogger-app/-/tree/master/researchime_base)
+* [researchime_contentextraction](https://gitlab.lrz.de/languagelogger/languagelogger-app/-/tree/master/researchime_contentextraction)
+* [researchime_contentabstraction](https://gitlab.lrz.de/languagelogger/languagelogger-app/-/tree/master/researchime_contentabstraction)
 
 2. Include them into your project's build by listing them in the settings.gradle file
 
