@@ -1,0 +1,2 @@
+rootProject.name='Just Another Mobile Sensing App'
+include ':app', ':researchime_contentextraction', ':researchime_contentabstraction',  ':researchime_base'
